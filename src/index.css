@@ -2,15 +2,15 @@
 
   /* Custom CSS to blur non-centered slides */
   .swiper-slide:not(.swiper-slide-active) .swiper-slide-image {
-    filter: blur(4px); /* Adjust the blur intensity as needed */
-    opacity: 0.7; /* Adjust the opacity to make it less prominent */
+    filter: blur(4px); 
+    opacity: 0.7; 
     width: 300px;
 
   }
 
   .swiper-slide-active .swiper-slide-image {
-    filter: none; /* No blur for the centered slide */
-    opacity: 1; /* Full opacity for the centered slide */
+    filter: none; 
+    opacity: 1; 
     width: 400px;
     height: 250px;
   }
